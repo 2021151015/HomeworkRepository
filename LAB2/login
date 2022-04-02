@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css"
+        href="main.css">
+        <title>Log In</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+            <nav>
+                <div><a href="./login.html">Log In</a></div>
+                <div><a href="./signup.html">Sign Up</a></div>
+            </nav>
+        </header>
+        <h3>회원 정보(필수)</h3>
+        <div class="info">
+            <p>
+                <label>유저 아이디: <input name="id" type="text" placeholder="아이디를 입력하세요"/> </label>
+            </p>
+            <p>
+                <label>비밀번호: <input name="pw" type="password" placeholder="비밀번호를 입력하세요"/> </label>
+            </p>
+
+        </div>
+        <div class="buttons">
+            <button class="login">LOG IN</button>
+            <button class="signup">SIGN UP</button>
+        </div>
