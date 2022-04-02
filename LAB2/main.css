@@ -1,0 +1,54 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1
+{
+    font-size:40px;
+    color:darksalmon;
+    text-align: center;
+}
+
+nav div a
+{
+    font-size: 20px;
+    text-align: center;
+    padding: .1em;
+    border: 4px dotted;
+}
+
+.info
+{
+    font-size: 1rem
+}
+
+.info input
+{
+    border: 3px dashed black;
+    text-align: center;
+    width: 350px;
+    height: 20px
+}
+
+.buttons
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 60px;
+    height: 30px;
+}
+
+.buttons .login
+{
+    background-color: forestgreen;
+}
+.buttons .cancel
+{
+    background-color: firebrick;
+}
+.buttons .signup
+{
+    background-color: royalblue;
+}
