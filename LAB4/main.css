@@ -1,0 +1,138 @@
+body
+{
+  font-family: 'Times New Roman', Times, serif;
+  flex-direction: row;
+}
+
+.top 
+{
+  width:1020px;
+}
+
+header 
+{
+	align-items: center;
+	justify-content: space-between;
+}
+
+h3
+{
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul 
+{
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#navigation
+{
+  display:flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4px 0;
+
+} 
+
+#explain
+{
+  padding: 20px;
+}
+
+nav ul li  
+{
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.row 
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column 
+{
+  flex: 25%;
+  max-width: 25%;
+}
+
+.column img 
+{
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+* 
+{
+  box-sizing: border-box;
+}
+span
+{
+    text-align: center;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.login
+{
+    background-color: forestgreen;
+    color: white;
+    margin-right: 20px;
+}
+
+.signup
+{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.cancel
+{
+    background-color: brown;
+    color: white;
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+  ul {
+    flex-direction: row;
+  }
+  li {
+    flex: 1;
+  }
+}
+
+@media only screen and (min-width: 1020px){
+  ul{width: 1020px; margin: 0 auto;}
+}
+
+@media (min-width: 1020px){
+  .row{width: 1020px; margin: 0 auto;}
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

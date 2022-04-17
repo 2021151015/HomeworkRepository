@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signup</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+    </head>
+
+    <body>
+        <div class="top">
+            <header>
+                <h1>NEO SHOP</h1>
+            </header>
+
+            <nav id="navigation">
+                <ul>
+                    <li><a href="index.html">MAIN-PAGE</a></li>
+                    <li><a href="login.html">LOG IN</a></li>
+                    <li><a href="signup.html">SIGN UP</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <h4>User Information</h4>
+                <div>
+                    <p>
+                        <label>Name
+                            <input name="name" type="text" placeholder="이름을 입력하세요" autofocus> </label>
+                    </p>
+                    <p>
+                        <label>Birthday <input name="date" type="date"/></label>
+                    </p>
+                    <p>
+                        <label>Grade <input name="grade" type="number" step="1" required /></label>
+                    </p>
+                    <p>
+                        <label>Phone number <input name="tel" type="tel" placeholder="(###) ###-####"
+                            pattern="\(\d{3}\) \d{3}-\d{4}" required /> </label>
+                    </p>
+                    <p>
+                        <label>User ID <input name="id" type="text" placeholder="아이디를 입력하세요" /> </label>
+                    </p>
+                    <p>
+                        <label>Password <input name="pw" type="password" placeholder="비밀번호를 입력하세요"/> </label>
+                    </p>
+                    <p>
+                        <label>Password Check <input name="re-pw" type="password" placeholder="비밀번호 확인"/></label>
+                    </p>
+                </div>
+
+                <div>
+                    <button class="signup">SIGN UP</button>
+                    <button class="cancel">CANCEL</button>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
